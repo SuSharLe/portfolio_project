@@ -3,11 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="shortcut icon"
-      href="images/IMG_8784.jpg"
-      type="image/x-icon"
-    />
+    <link rel="shortcut icon" href="images/IMG_8784.jpg" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,21 +11,21 @@
       rel="stylesheet"
     />
     <title>Su Shar's Portfolio</title>
-    
+
     <style>
       * {
-          padding: 0;
-          margin: 0;
-          box-sizing: border-box;
-          scroll-behavior: smooth;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
       }
 
       header {
-          text-align: center;
-          padding: 30px 0;
-          background-image: url(images/image.png);
-          background-position: center;
-          height: 400px;
+        text-align: center;
+        padding: 30px 0;
+        background-image: url(images/image.png);
+        background-position: center;
+        height: 400px;
       }
 
       header p {
@@ -43,7 +39,7 @@
         padding: 20px;
         font-family: "Playfair Display SC", serif;
         font-size: 50px;
-        text-shadow: 5px 3px 5px rgb(66, 128, 167)
+        text-shadow: 5px 3px 5px rgb(66, 128, 167);
       }
 
       .btn {
@@ -57,13 +53,12 @@
       }
 
       nav {
-        background-color:#536972;
+        background-color: #536972;
         text-align: center;
         padding: 20px 20px;
         position: sticky;
         top: 0px;
         left: 20px;
-  
       }
 
       nav a {
@@ -71,14 +66,16 @@
         color: #eeeeee;
         padding: 20px 20px;
         margin-right: 10px;
-        font-size: 30px;
-        font-family: "Lato" , serif;
+        font-size: 25px;
+        font-family: "Lato", serif;
       }
 
       nav a:hover {
         letter-spacing: 2px;
         transition-duration: 1s;
-}
+        margin: 0;
+        padding: 0;
+      }
 
       body {
         background-color: #e1f4fc;
@@ -87,28 +84,62 @@
       section {
         margin: 20px;
       }
-      #profile h2, #skills h2, #projects h2, #contact h2, #certifications h2{
-        color: #1D406C;
-        font-size: 40px;
+
+      #profile h2,
+      #skills h2,
+      #projects h2,
+      #contact h2,
+      #certifications h2 {
+        color: #1d406c;
+        font-size: 25px;
         border-bottom: 4px solid;
         font-family: "Playfair Display SC", serif;
-        text-shadow: 5px 3px 5px rgb(154, 215, 253)
+        text-shadow: 5px 3px 5px rgb(154, 215, 253);
       }
 
-      #profile p, #skills li, #projects li, #projects th, #projects td, #contact p, #certifications p, #contact li {
-        font-family: "Lato" , serif;
+      #profile p,
+      #skills li,
+      #projects li,
+      #projects th,
+      #projects td,
+      #contact p,
+      #certifications p,
+      #contact li,
+      th,
+      td {
+        font-family: "Lato", serif;
         color: rgb(32, 32, 32);
         font-size: 20px;
       }
 
-      table {
+      #skills li,
+      #projects li,
+      #projects th,
+      #projects td,
+      #contact p,
+      #contact li {
         margin: 20px;
         width: 70%;
       }
 
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      th,
+      td {
+        text-align: left;
+        padding: 8px;
+      }
+
+      th {
+        background-color: #97ccdf;
+      }
+
       .backToTop {
         color: rgb(154, 215, 253);
-        background-color: #1D406C;
+        background-color: #1d406c;
         text-decoration: none;
         border-radius: 5px;
         position: fixed;
@@ -117,36 +148,39 @@
         bottom: 20px;
         cursor: pointer;
       }
-
     </style>
   </head>
   <body>
     <!-- header section -->
     <header id="header">
       <h1>My Portfolio :D</h1>
-      <p> Explore the life of a teenager!</p> <br>
+      <p>Explore the life of a teenager!</p>
+      <br />
       <a class="btn" href="#profile"> Read More</a>
     </header>
 
     <!-- navigation section -->
     <nav>
-      <a href="#profile"> Who I am </a> 
-      <a href="#skills"> What I am good at </a> 
-      <a href="#projects"> My work </a> 
-      <a href="#certifications"> Certifications </a> 
-      <a href="#contact"> Contact infos </a> 
+      <a href="#profile"> Who I am </a>
+      <a href="#skills"> What I am good at </a>
+      <a href="#projects"> My work </a>
+      <a href="#certifications"> Certifications </a>
+      <a href="#contact"> Contact infos </a>
       <a href="contact.html"> Conact Form</a>
     </nav>
 
     <!-- profile section -->
     <section id="profile">
-      <h2> Who I am</h2>
-      <p>Hi there fellow earthling, I'm Mei Li, a passionate gamer who loves coding to death :3</p>
+      <h2>Who I am</h2>
+      <p>
+        Hi there fellow earthling, I'm 美丽, a passionate gamer who loves coding
+        to death :3
+      </p>
     </section>
 
     <!-- skills section -->
     <section id="skills">
-      <h2> What I am good at</h2>
+      <h2>What I am good at</h2>
       <ul>
         <li>Roblox</li>
         <li>Minecraft</li>
@@ -157,7 +191,7 @@
 
     <!-- projects section -->
     <section id="projects">
-      <h2> My work</h2>
+      <h2>My work</h2>
       <ol>
         <li>Student</li>
         <li>Editor</li>
@@ -169,8 +203,8 @@
 
     <!-- certifications section -->
     <section id="certifications">
-      <h2> Personal Milestones </h2>
-      <table border="5" cellspacing="0" cellpadding="20">
+      <h2>Personal Milestones</h2>
+      <table>
         <thead>
           <tr>
             <th>No.</th>
@@ -198,7 +232,7 @@
           <tr>
             <td>3.</td>
             <td>HSK 1</td>
-            <td>Beijing Education</td>
+            <td>The Chinese Testing International Co., Ltd.</td>
             <td>10/8/2024</td>
           </tr>
         </tbody>
@@ -207,7 +241,7 @@
 
     <!-- Contact session -->
     <section id="contact">
-      <h2> Contact Information</h2>
+      <h2>Contact Information</h2>
       <ul>
         <li>susharrlei15@gmail.com</li>
         <li>sawmayli2008@gmail.com</li>
@@ -216,6 +250,6 @@
       </ul>
     </section>
     <footer></footer>
-    <a class ="backToTop" href="#header"> &uarr; </a>
+    <a class="backToTop" href="#header"> &uarr; </a>
   </body>
 </html>
